@@ -15,10 +15,10 @@
             <div class="imageg">
               <img src="public/assets/img/logo.png" alt="logo">
             </div>
-            <div>
+            <div class="titre">
               <h1 class="text">Mon premier site HTML/CSS</h1>
-            </div class="social">
-            <div>
+            </div>
+            <div class="social">
               <i class="fa-brands fa-square-facebook fa-2xl size_facebook"></i>
               <br>
               <br>

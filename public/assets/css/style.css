@@ -269,6 +269,12 @@ nav {
   margin: 10px;
 }
 
+.linklist a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
 /*************** END NAV ***************
 
 /*************** MAIN ***************/
