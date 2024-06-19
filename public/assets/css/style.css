@@ -2,7 +2,7 @@
 
 /* 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
-
+/* 
 @font-face {
   font-family: "Roboto";
   src: url("fonts/Roboto-Regular.ttf");
@@ -15,8 +15,8 @@
 
 @font-face {
   font-family: "Roboto-Black";
-  src: url("fonts/Roboto-Black.ttf");
-}
+  src: url("fonts/Roboto-Black.ttf"); */
+/* } */
 
 /* @font-face {
   font-family: ;
@@ -189,14 +189,36 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
+  /* margin: 0;
   padding: 0;
   border: 0;
-  vertical-align: baseline;
+  vertical-align: baseline; */
 }
 * {
   box-sizing: border-box; /*pour garder la meme taille*/
 }
+
+body {
+  background-image: url("../img/concrete-texture.png");
+  opacity: ;
+}
+
+main {
+   background-color: #868785;
+  width: 1000px;
+  min-height: 600px;
+  margin: auto;
+}
+
+form {
+  background-color: #1a2530;
+  border-radius: 10%;
+  width: 575px;
+  min-height: 500px;
+  padding: 15px;
+  opacity: 
+}
+
 img {
   /* width:100%; */
 }
@@ -204,6 +226,7 @@ body {
   /* font-family:Arial;
     background-image: url("../img/fond.png"); */
   background-color: rgb(240, 240, 240);
+  
 }
 .container {
   /* width:1000px; */
