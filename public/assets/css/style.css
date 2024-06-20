@@ -301,7 +301,13 @@ nav {
 /*************** END NAV ***************
 
 /*************** MAIN ***************/
+.content_img{
+  background-image: url(../img/fond.jpg);
+  background-size: cover;
+  
 
+
+}
 /*************** END MAIN ***************/
 
 /*************** ASIDE LEFT ***************/
