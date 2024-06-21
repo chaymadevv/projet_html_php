@@ -200,7 +200,7 @@ video {
 
 body {
   background-image: url("../img/concrete-texture.png");
-  opacity: ;
+  
 }
 
 main {
@@ -216,7 +216,7 @@ form {
   width: 575px;
   min-height: 500px;
   padding: 15px;
-  opacity: 
+ 
 }
 
 img {
@@ -301,14 +301,41 @@ nav {
 /*************** END NAV ***************
 
 /*************** MAIN ***************/
+
+/*************** END MAIN ***************/
+/*************** IMAGE ***************/
 .content_img{
   background-image: url(../img/fond.jpg);
   background-size: cover;
-  
+  height: 550px;
+  color: white;
+  padding: 20px 15px;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; */
+
+}
+/* .content_img h2{
+  align-self: start;
+} */
+.paragraphe_img{
+  background-color: gray;
+  width: 60%;
+  margin: 150px auto 0px auto;
+  padding: 10px 15px;
+  opacity: 0.8;
+  border-radius: 20px;
+}
+
+#first{
+
+
 
 
 }
-/*************** END MAIN ***************/
+/*************** END IMAGE ***************/
 
 /*************** ASIDE LEFT ***************/
 
