@@ -1,16 +1,17 @@
 <nav>
-    <ul class="linklist">
-        <li><a href="structure.php">Structure</a></li>
-        <li><a href="texte.php">Texte</a></li>
-        <li><a href="selecteur.php">Selecteur</a></li>
-        <li><a href="image.php">Image</a></li>
-        <li><a href="position.php">Position</a></li>
-        <li><a href="zoning.php">Zoning</a></li>
-        <li><a href="tableau.php">Tableau</a></li>
-        <li><a href="liste.php">Liste</a></li>
-        <li><a href="lien_menu.php">Lien & menu</a></li>
-        <li><a href="formulaire.php">Formulaire</a></li>
-        <li><a href="multimedia.php">Multimedia</a></li>
-        <li><a href="animation.php">Animation</a></li>
-    </ul>
+    <!--Zone du menu, les liens pour naviguer sur le site-->
+    <div class="ancreNav">
+        <a href="index.php" class="<?= ($activePage == 'index') ? 'active' : ''; ?>">Structure</a>
+        <a href="texte.php" class="<?= ($activePage == 'texte') ? 'active' : ''; ?>">Texte</a>
+        <a href="selecteur.php" class="<?= ($activePage == 'selecteur') ? 'active' : ''; ?>">Selecteur</a>
+        <a href="image.php" class="<?= ($activePage == 'image') ? 'active' : ''; ?>">Image</a>
+        <a href="position.php" class="<?= ($activePage == 'position') ? 'active' : ''; ?>">Position</a>
+        <a href="zoning.php" class="<?= ($activePage == 'zoning') ? 'active' : ''; ?>">Zoning</a>
+        <a href="tableau.php" class="<?= ($activePage == 'tableau') ? 'active' : ''; ?>">Tableau</a>
+        <a href="liste.php" class="<?= ($activePage == 'liste') ? 'active' : ''; ?>">Liste</a>
+        <a href="lien_menu.php" class="<?= ($activePage == 'lien_menu') ? 'active' : ''; ?>">Lien & menu</a>
+        <a href="formulaire.php" class="<?= ($activePage == 'formulaire') ? 'active' : ''; ?>">Formulaire</a>
+        <a href="multimedia.php" class="<?= ($activePage == 'multimedia') ? 'active' : ''; ?>">Multimedia</a>
+        <a href="animation.php" class="<?= ($activePage == 'animation') ? 'active' : ''; ?>">Animation</a>
+    </div>
 </nav>
